@@ -55,8 +55,8 @@ Key Performance Indicators
 
  📸 Dashboard Preview
 
-![E-Commerce Sales Dashboard](images/dashboard.png)
 
-# 👨‍💻 Author
+
+ Author
 **Your Name**
 ANJALI SRIVASTAVA
