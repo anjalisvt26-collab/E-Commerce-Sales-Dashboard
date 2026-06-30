@@ -53,8 +53,6 @@ Key Performance Indicators
 - DAX
 - Data Modeling
 
- 📸 Dashboard Preview
-
 
 
  Author
