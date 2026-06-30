@@ -1,10 +1,10 @@
 # E-Commerce Sales Dashboard
 
-## Overview
+ Overview
 
 The E-Commerce Sales Dashboard is an interactive data visualization project that provides insights into sales performance, profit, orders, and customer trends. It helps users analyze business data and make informed decisions using dynamic charts and filters.
 
-## Features
+Features
 
 * Interactive dashboard with filters
 * Sales and profit analysis
@@ -13,54 +13,62 @@ The E-Commerce Sales Dashboard is an interactive data visualization project that
 * Monthly and yearly sales trends
 * Customer and order insights
 * Easy-to-understand charts and graphs
-
-## Technologies Used
-
-* Power BI
-* Microsoft Excel (Dataset)
-* DAX
-* Power Query
-
-## Dashboard Insights
-
-* Total Sales
-* Total Profit
-* Total Orders
-* Sales by Category
-* Sales by Region
-* Monthly Sales Trend
-* Top Performing Products
-* Customer Analysis
-
-## Project Structure
-
-```text
-E-Commerce-Sales-Dashboard/
-│── Dashboard.pbix
-│── Dataset.xlsx
-│── README.md
 ```
+ Dataset Information
+The dashboard is created using two datasets:
 
-## How to Use
+### 1. Orders Table
+Contains order-related information such as:
+- Order ID
+- Order Date
+- Customer Name
+- State
+- City
+- Category
+- Sub-Category
+- Amount
+- Quantity
 
-1. Download or clone the repository.
-2. Open the `.pbix` file in Power BI Desktop.
-3. Load or refresh the dataset if required.
-4. Use the interactive filters and charts to explore the data.
+ Details Table
+Contains transaction details such as:
+- Order ID
+- Profit
+- Payment Mode
 
-## Future Enhancements
+ Dashboard KPIs
+- **Total Sales:** 438K
+- **Total Profit:** 37K
+- **Total Quantity Sold:** 6K
 
-* Real-time data integration
-* Forecasting and trend prediction
-* KPI alerts
-* Customer segmentation
-* Advanced analytics using AI visuals
+Dashboard Features
+- Sales Analysis by State
+- Monthly Profit Analysis
+- Sales by Customer
+- Quantity by Category
+- Quantity by Payment Mode
+- Profit by Sub-Category
+- Quarter-wise Filtering using Slicer
 
-## Learning Outcomes
+Insights
+- Maharashtra generated the highest sales.
+- Printers contributed the highest profit among sub-categories.
+- COD was the most preferred payment mode.
+- Profit was highest in December.
+- Clothing category contributed the highest quantity sold.
 
-* Data Cleaning using Power Query
-* Data Modeling
-* DAX Measures and Calculations
-* Interactive Dashboard Design
-* Business Intelligence and Data Visualization
+Tools Used
+- Power BI Desktop
+- Power Query
+- DAX
+- Data Modeling
+
+Files
+- `Ecommerce Dashboard.pbix` – Power BI project file
+- `Orders.csv` – Orders dataset
+- `Details.csv` – Transaction details dataset
+- `README.md` – Project documentation
+
+Author
+Your Name
+ANJALI SRIVASTAVA
 
